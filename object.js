@@ -1,12 +1,11 @@
 const person = {
     firstname: "John",
     lastname: "Doe",
-    age: 50,
-    eyecolor: "blue"
+    id: 5566,
+    fullName: function() {
+    }
   };
-  
-  delete person.age;
-console.log(`The person's age is ${person.age === undefined ? 'not available' : person.age}.`);
+console.log(person.firstname, person.lastname); // John Doe
 
 myObj = {
     name:"John",
@@ -23,3 +22,5 @@ myObj = {
     console.log(myObj.myCars); // { car1: 'Ford', car2: 'BMW', car3: 'Fiat' }
     console.log(myObj); // { name: 'John', age: 30, myCars: { car1: 'Ford', car2: 'BMW', car3: 'Fiat' } }
     console.log(myObj.name); // John
+
+
